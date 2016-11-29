@@ -1,0 +1,76 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <style>
+            body {
+                margin-top: 150px;
+
+            }
+
+
+        </style>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+
+    <body>
+      <h1 class="text-center">Nasa project</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <span class='rover' id='curiosity'>
+                            <img class="img-responsive" src="http://mars.jpl.nasa.gov/layout/msl/images/FollowYourCuriosity.jpg" alt="curiosity"></span>
+
+                        <span class='rover' id='opportunity'>
+                            <img class="img-responsive" src="http://mars.nasa.gov/images/rover21-full.jpg" alt="opportunity"></span>
+
+                        <span class='rover' id='spirit'><img class="img-responsive" src="http://www.jpl.nasa.gov/images/mer/20100126/spiritCV-20100126-browse.jpg" alt="spirit"></span>
+                    </div>
+
+                    <h5>Rover Name:
+                        <span id="rover_name"></span>
+                    </h5>
+                    <h5>Total photos:
+                        <span id="total_photos"></span>
+                    </h5>
+                    <h5>Max sol days:
+                        <span id="max_sol"></span>
+                    </h5>
+                    <h5>Landing date:
+                        <span id="landing_date"></span>
+                    </h5>
+                    <h5>Lunch date:
+                        <span id="launch_date"></span>
+                    </h5>
+                    <p id='sol-selector_val'>0</p>
+                    <input id="sol-selector" type="range" value='1' max="" min="0">
+                    <h4>Choose Camera</h4>
+                    <form action="" id="rover_camera"></form>
+                    <div class="text-center">
+                        <button id='rover_photo' class='btn btn-primary' type="button" name="button">Photo Gallery</button>
+                    </div>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="gallery row">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="js/jquery.magnific-popup.min.js" charset="utf-8"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

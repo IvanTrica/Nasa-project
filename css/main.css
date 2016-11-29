@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+body {
+    background: url('../img/mars.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span.rover {
+    display: inline-block;
+}
+
+span.rover .active {
+    border: 2px solid #0033cc;
+}
+
+span.rover img {
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    border: 2px solid #66ccff;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h5, h4, p, form#rover_camera span, h1 {
+    color: #66ccff;
+}
+
+form#rover_camera span {
+    margin: 0 10px;
+    color: #66ccff;
+}
+
+span.rover img:hover {
+    border: 2px solid #00ff00;
+}
+
+#sol-selector {
+    width: 350px;
+}
+
+.checkbox input[type=checkbox] {
+    margin-left: 5px;
+}
+
+.radio label, .checkbox label {
+    color: #66ccff;
+    padding-left: 30px;
+}
+
+.col-md-8 a img {
+    width: 150px;
+}
+
+figure {
+    padding: 5px 10px;
+}
